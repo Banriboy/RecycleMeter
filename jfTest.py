@@ -224,7 +224,7 @@ with col2:
 # 🌟ここを追加：CO2削減量の表示用カード
 st.markdown(f"""
 <div class="transparent-card" style="background-color: rgba(200, 255, 200, 0.6);">
-  <h2>🌍 Total CO2 Reduced by Compost</h2>
+  <h2>🌍 CO2 Equiv by Compost</h2>
   <h3>{total_co2_reduction:.3f} kg-CO2</h3>
 </div>
 """, unsafe_allow_html=True)
