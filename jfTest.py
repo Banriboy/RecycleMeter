@@ -208,7 +208,7 @@ with col1:
       st.markdown(f"""
       <div class="transparent-card">
            <h2>🌱 Compost</h2>
-           <h3>{category_totals['compost']:.2f} kg</h3>
+           <h3>{category_totals['compost']:.1f} kg</h3>
       </div>
       """, unsafe_allow_html=True)
 
@@ -217,7 +217,7 @@ with col2:
       st.markdown(f"""
       <div class="transparent-card">
           <h2>♻️ Recyclables</h2>
-          <h3>{category_totals['recycle']:.2f} kg</h3>
+          <h3>{category_totals['recycle']:.1f} kg</h3>
       </div>
       """, unsafe_allow_html=True)
 
@@ -233,7 +233,7 @@ st.markdown(f"""
 st.markdown(f"""
 <div class="transparent-card">
   <h2>📊 Total Waste Reduced</h2>
-  <h3>{total_weight:.2f} kg</h3>
+  <h3>{total_weight:.1f} kg</h3>
   <p>Thank you for your cooperation! 💖</p>
 </div>
 """, unsafe_allow_html=True)
