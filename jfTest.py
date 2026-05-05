@@ -225,7 +225,7 @@ with col2:
 st.markdown(f"""
 <div class="transparent-card" style="background-color: rgba(200, 255, 200, 0.6);">
   <h2>🌍 CO2 equivalent Reduction by Compost</h2>
-  <h3>{total_co2_reduction:.3f} kg-CO2</h3>
+  <h3>{total_co2_reduction:.1f} kg-CO2</h3>
 </div>
 """, unsafe_allow_html=True)
 
